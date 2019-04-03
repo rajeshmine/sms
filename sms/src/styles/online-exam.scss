@@ -1,0 +1,231 @@
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.radioCustomLabel {
+  position: relative;
+  width: 100% !important;
+  margin: 0;
+  padding: 0px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ 
+.result-link {
+  float: right;
+  /* background-color: green; */
+  color: #000000;
+}
+.status {
+  color: green;
+}
+.list-grp {
+  text-align: left;
+  line-height: 1.5;
+  padding: 10px;
+  background: #ccc;
+}
+.quiz-story {
+  padding: 30px;
+  width: 70%;
+
+  background-color: #fff;
+  margin: auto;
+  min-height: 400px;
+
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.bottom-footer {
+  margin-top: 30px;
+  text-align: right;
+  button {
+    padding: 5px 20px;
+    border-radius: 2px;
+    margin: 10px;
+    border: 1px solid;
+    font-weight: 500;
+  }
+  .Previous-btn {
+    
+    color: #0076ff;
+  }
+  .next-btn {
+    border-radius: 4px;
+    color: #00a699;
+  }
+}
+
+button {
+  width: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+/* Result Component */
+.result {
+  padding: 1.5rem 2.5rem;
+}
+
+/* Quiz Component */
+.answerOptions {
+  width: 700px;
+  padding: 0;
+  min-height: 200px;
+}
+.onlineExamTitle {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #eeeeee;
+  h6{
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+  }
+}
+/* QuestionCount Component */
+.questionCount {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #f5f6fa;
+  margin:10px 0;
+}
+
+/* Question Component */
+.question {
+  margin: 5px;
+  font-size: 25px;
+}
+.selected-btn {
+  color: #5cb85c;
+  font-weight: 500;
+  .tickmark {
+    color: #fff !important;
+    background-color: #5cb85c !important;
+  }
+}
+/* AnswerOption Component */
+.answerOption {
+  display: inherit;
+  margin: 10px;
+  button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 5px;
+    &:hover {
+      .tickmark {
+        color: #ddd;
+      }
+    }
+    .tickmark {
+      padding: 3px 7px;
+      border-radius: 4px;
+      background: #f5f6fa;
+      color: transparent;
+    }
+  }
+}
+
+.radioCustomButton {
+  position: absolute;
+  width: auto;
+  opacity: 0;
+}
+
+.radioCustomButton,
+.radioCustomLabel {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.radioCustomLabel {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 1.5rem 2.5rem 1.5rem 5rem;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.radioCustomButton ~ .radioCustomLabel:before {
+  position: absolute;
+  top: 20px;
+  left: 38px;
+  width: 28px;
+  height: 28px;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.radioCustomButton:checked ~ .radioCustomLabel:before {
+  content: "";
+  // background: #8BC53F url(./svg/icon-check.svg) no-repeat;
+  background-size: 27px;
+  border-color: #8bc53f;
+}
+
+/* Animation */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out 0.3s;
+}
+
+.fade-leave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+
+  ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+  }
+  ul#horizontal-list li {
+    display: inline;
+  }
+}
+
+.table-wrapper-scroll-y tbody{
+ 
+  overflow-y: auto;
+  max-height: 500px;
+  overflow-x: hidden;
+
+
+}

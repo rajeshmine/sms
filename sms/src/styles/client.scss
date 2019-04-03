@@ -1,0 +1,142 @@
+@import "styles/theme.scss";
+
+.page-client{
+     
+
+    table{
+        background-color: #f5f7f7;
+    }
+
+    tbody{
+        background-color: white;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #fcfdfe;
+    }
+
+    th {
+        color: rgba(0, 0, 0, 0.54);
+        font-weight: 500;
+        font-size: 14px;
+        vertical-align: top !important;
+        text-align: center;
+    }
+    .text-filter{
+            -webkit-appearance: textfield;
+            background-color: white;
+            -webkit-rtl-ordering: logical;
+            cursor: text;
+            font-size: 14px;
+            height: 19px;
+            margin: 0;
+            width: 100%;
+            border-radius: 0;
+            padding: 2px 2px;
+    }
+    .clientName{
+        display: flex;
+        align-items: center;
+        .icon{
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background-size: contain;
+            background-color: #fff;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: 1px solid #ccc;
+            border-radius: .25rem;
+            margin-right: .25rem;
+        }
+    }
+    .actions {
+        font-weight:bold;
+        a{
+            margin-left: 5px;
+        }
+    }
+
+    .react-bootstrap-table-pagination-list{
+        .page-link {
+            padding: .25rem .5rem;
+            font-size: .875rem;
+            line-height: 1.5;
+          }
+        
+          .page-item {
+            &:first-child {
+              .page-link {
+                margin-left: 0;
+                border-top-left-radius: .25rem;
+                border-bottom-left-radius: .25rem;
+              }
+            }
+            &:last-child {
+              .page-link {
+                border-top-right-radius: .2rem;
+                border-bottom-right-radius: .2rem;
+              }
+            }
+          }
+    }
+}
+
+
+.custom-checkbox .custom-control-input[indeterminate=true] ~ .custom-control-label::before {
+    border-color: $primary;
+    background-color: $primary;
+  }
+  
+  .custom-checkbox .custom-control-input[indeterminate=true] ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h6'/%3e%3c/svg%3e");
+  }
+
+
+  .PreviewArea{
+    position: absolute;
+    z-index: 50; 
+   box-shadow: $box-shadow; 
+}
+.react-bs-table{
+    height:auto !important;
+}
+.leftside{
+    color: #19A3FD;
+    font-weight: 600;
+    font-size: 15px;   
+}
+
+.rightside{
+    color: #4b626d;
+    font-size: 14px;    
+}
+ 
+.myhdr h5{
+    color: #212529;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.btmspacediv{
+    margin:20px;
+}
+
+.white{
+    color: #fff
+}
+
+.btn{
+    margin-bottom: 10px;
+}
+
+
+.table-wrapper-scroll-y tbody{
+ 
+    overflow-y: auto;
+    max-height: 500px;
+    overflow-x: hidden;
+ 
+ 
+}

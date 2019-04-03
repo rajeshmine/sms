@@ -1,0 +1,428 @@
+.dashboardflexdiv a {
+  text-decoration: none;
+  width: 200px;
+}
+
+.circularDiv {
+  border: 1px solid #f3f3f3; 
+  width: 100%;
+  margin: 10px;
+
+  .circularheadDiv {
+    p {
+      margin: 0;
+      background: #3f51b5; 
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+  }
+
+  .circularcontentDiv {
+    border-bottom: 1px solid #ddd;
+
+    p {
+      margin: 0;
+      font-size: 13px;
+      line-height: 14px;
+      padding: 5px;
+    }
+
+    .title {
+      color: #328be6;
+    }
+
+    .description {
+      color: #999;
+    }
+
+    .date {
+      color: #999;
+      text-align: right;
+    }
+  }
+}
+
+.timetableDiv {
+  width: 100%;
+  border: 1px solid #f3f3f3;
+  margin: 10px;
+
+  .timetableheadDiv {
+    p {
+      margin: 0;
+      background: #3f51b5;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+  }
+
+  .table td,
+  .table th {
+    padding: 7px;
+    text-align: center;
+  }
+}
+
+.holidaytableDiv {
+  width: 100%;
+  border: 1px solid #f3f3f3;
+  margin: 10px;
+
+  .holidayheadDiv {
+    p {
+      margin: 0;
+      background: #3f51b5;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+  }
+
+  .table td,
+  .table th {
+    padding: 7px;
+    text-align: center;
+  }
+}
+
+.courseDiv {
+  width: 100%;
+  border: 1px solid #f3f3f3; 
+
+  .courseheadDiv {
+
+    p {
+      margin: 0;
+      background: #3f51b5;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+  }
+
+  .coursecontentDiv {
+    display: flex;
+    border-bottom: 1px solid #f3f3f3;
+
+    p {
+      flex: 1;
+      margin: 0;
+      padding: 5px;
+      font-weight: 500;
+      text-transform: capitalize;
+      font-size: 13px;
+
+      .value {
+        color: #328be6;
+      }
+
+      .title {
+        color: #999;
+      }
+    }
+
+  }
+
+  .table td,
+  .table th {
+    padding: 7px;
+    text-align: center;
+  }
+}
+
+.bg-1 {
+  background-color: #009688 !important;
+}
+
+.bg-2 {
+  background-color: #9C27B0 !important;
+}
+
+.bg-3 {
+  background-color: #673AB7 !important;
+}
+
+.bg-4 {
+  background-color: #2196F3 !important;
+}
+
+.bg-5 {
+  background-color: #E91E63 !important;
+}
+
+.bg-6 {
+  background-color: #FF5722 !important;
+}
+
+.bg-7 {
+  background-color: #607d8b !important;
+}
+
+.feeCollectionDiv {
+  margin: -5px !important;
+
+  .feetitle {
+    h6 {
+      color: green;
+
+    }
+  }
+
+  .progress {
+    font-weight: 500;
+  }
+
+  .feedesc {
+
+    div {
+      padding: 4px;
+      font-weight: 500;
+      font-size: 14px;
+      span{
+        color: #000;
+      }
+    }
+
+    .progresscolor-1 {
+      color: #0076ff;
+
+    }
+
+    .progresscolor-2 {
+      color: #17a2b8;
+    }
+
+    .progresscolor-3 {
+      color: #28a745;
+    }
+
+    .progresscolor-4 {
+      color: #dc3545;
+    }
+  }
+}
+
+.noDatatext {
+  text-align: center;
+  font-weight: 500;
+  padding: 10px !important;
+}
+
+
+.myCard {
+  margin: 10px; 
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  margin-bottom: 20px;
+}
+
+.myCard p {
+
+  font-size: 30px;
+  color: #2196F3;
+}
+
+.todo h5 {
+  font-size: 15px !important;
+  color: #9C27B0;
+  font-weight: 600;
+  //border-bottom: dashed 1px;
+  //text-align: center;
+  padding: 10px;
+
+}
+
+.listDiv {
+  padding: 10px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.listDiv p {
+  font-size: 15px !important;
+}
+
+.iconstyle {
+
+  width: 60px;
+  height: 55px;
+  border-radius: 10px;
+}
+
+.iconstyle i {
+  font-size: 30px !important;
+  color: #fff;
+  text-align: center;
+  margin: 13px;
+}
+
+.iconbgclr1 {
+  background-color: #673ab7;
+}
+
+.iconbgclr2 {
+  background-color: #E91E63;
+}
+
+.iconbgclr3 {
+  background-color: #2196F3;
+}
+
+.iconbgclr4 {
+  background-color: #FFC107;
+}
+
+.iconbgclr5 {
+  background-color: #009968; 
+}
+
+.iconbgclr6 {
+  background-color: #FF5722;
+}
+
+.iconbgclr7 {
+  background-color: #607d8b;
+}
+
+ 
+.tableCard {
+    
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    padding: 10px; 
+    margin-bottom: 20px;
+}
+ 
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+ 
+.bg-primary-400 {
+  background-color: #42a5f5;
+  color: #fff;
+}
+.rounded-round {
+  border-radius: 100px!important;
+}
+
+.circularDiv .btn-sm{
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 2!important;
+  
+}
+.circularDiv .btn-sm:hover{
+  color:#fff
+  
+}
+
+.circularDiv .table td{
+  text-align: left !important;
+}   
+.circularDiv .table th{
+  text-align: left !important;
+}
+.circularDiv{
+  .table thead th {
+    vertical-align: bottom;
+    border-bottom: 0px solid #dee2e6;  
+  }
+   
+  .page-client th {
+    color: #000; 
+    font-weight: 500;
+    font-size: 14px;
+    vertical-align: top !important;
+    text-align: center;
+  } 
+  .table th, .table td {
+    padding: 0.55rem;
+    vertical-align: top;
+    border-top: 0px solid #dee2e6;  
+  }
+}
+
+.dashboarduser h5{
+ color:#009968;
+}
+
+.table th, .table td {
+  padding: 0.3rem!important;
+} 
+
+.nav-tabs .nav-item {
+  cursor: pointer;
+}
+.coursetitle{
+  font-size: 17px;
+  font-weight: 600; 
+  color: #000000;
+}
+.coursediv {
+  padding: 6px;
+  border-bottom: 1px solid #efefef; 
+  .btn:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .bg-primary-400 {
+    background-color: #FF9800
+  }
+}
+.coursehead{
+  text-align: center;
+  margin-bottom: -15px;
+}
+.coursehead p{
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.dashboarduser {
+  text-align:right;
+  margin-left:-20px; 
+}
+.coursedescription p{
+  font-size: 13px;
+  color: #607D8B;
+}
+.text-muted {
+  color: #6c757d !important;
+  font-size: 13px;
+}
+.assignmentdiv {
+  padding: 6px;
+  border-bottom: 1px solid #efefef; 
+  .btn:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .bg-primary-400 {
+    background-color: #ff6384
+  }
+}
+
+.table-wrapper-scroll-y tbody{
+ 
+  overflow-y: auto;
+  max-height: 500px;
+  overflow-x: hidden;
+
+
+}

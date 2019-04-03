@@ -1,0 +1,39 @@
+@import "styles/theme.scss";
+
+.page-user{
+ 
+  .btn-primary.btn-link{
+    color:#fff;
+    text-decoration: none;
+
+    &:hover{
+      text-decoration: none
+    }
+  }
+  
+  h6 {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: .8rem;
+    text-transform: uppercase;
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.15);
+  }
+}
+
+.custom-control {
+position: relative;
+display: inline-block;
+min-height: 1.5rem;
+padding-left: 1.5rem;
+margin-right: 10px;
+}
+
+.table-wrapper-scroll-y tbody{
+ 
+  overflow-y: auto;
+  max-height: 500px;
+  overflow-x: hidden;
+
+
+}
